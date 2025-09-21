@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://kit.fontawesome.com/51a5610aed.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            font-family: "Poppins", sans-serif;
+        }
+
+        .background {
+            background-image: url(/image/BG.png);
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <section class="container px-10 mx-auto bg-gray-500">
+            <div>
+                <div class="flex items-center justify-between py-2">
+                    <div class="flex items-center gap-3">
+                        <!-- Fixed image path consistency -->
+                        <img src="/image/Map Pin.png" alt="Location pin">
+                        <!-- Fixed text size class from text-3 to text-sm -->
+                        <p class="text-white text-sm">Store Location: Lincoln- 344, Illinois, Chicago, USA</p>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <!-- Added proper spacing and hover effects -->
+                        <p class="text-white text-sm hover:text-gray-200 cursor-pointer">ENG</p>
+                        <p class="text-white text-sm hover:text-gray-200 cursor-pointer">USD</p>
+                        <p class="text-white text-sm hover:text-gray-200 cursor-pointer">Sign In</p>
+                        <p class="text-white text-sm hover:text-gray-200 cursor-pointer">Sign Up</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container px-10 py-4 mx-auto">
+            <div>
+                <div class="flex justify-between items-center gap-5">
+                    <div class="flex items-center gap-3">
+                        <!-- Fixed image path consistency -->
+                        <img src="/image/Group.png" alt="Ecobazar logo">
+                        <h1 class="font-bold text-2xl text-gray-800">Ecobazar</h1>
+                    </div>
+                    <div class="flex items-center gap-2 flex-1 max-w-md mx-8">
+                        <!-- Improved search input styling -->
+                        <input
+                            class="bg-gray-100 rounded-lg px-4 py-2 flex-1 focus:outline-none focus:ring-2 focus:ring-[#00B207] focus:bg-white border border-gray-200"
+                            type="text" placeholder="Search for products...">
+                        <!-- Fixed typo from "Seach" to "Search" and improved button styling -->
+                        <button
+                            class="bg-[#00B207] text-white px-4 py-2 rounded-lg hover:bg-[#009A06] transition-colors">Search</button>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <!-- Fixed image paths and added alt text -->
+                        <img src="/image/Heart.png" alt="Wishlist" class="w-6 cursor-pointer hover:opacity-80">
+                        <img src="/image/Shopping Card.png" alt="Shopping cart"
+                            class="w-24 cursor-pointer hover:opacity-80">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container mx-auto">
+            <hr class="border-gray-200">
+        </div>
+
+        <section class="container mx-auto px-10 py-3">
+            <div>
+                <div class="flex justify-between items-center">
+                    <nav class="flex items-center gap-8">
+                        <!-- Fixed syntax error from text=[#00B207] to text-[#00B207] and improved navigation styling -->
+                        <a href="#" class="text-[#00B207] font-medium hover:text-[#009A06] transition-colors">Home</a>
+                        <a href="#" class="text-gray-700 hover:text-[#00B207] transition-colors">Shops</a>
+                        <a href="#" class="text-gray-700 hover:text-[#00B207] transition-colors">Pages</a>
+                        <a href="#" class="text-gray-700 hover:text-[#00B207] transition-colors">Blog</a>
+                        <a href="#" class="text-gray-700 hover:text-[#00B207] transition-colors">About</a>
+                    </nav>
+                    <div class="flex items-center gap-3">
+                        <!-- Fixed image path consistency -->
+                        <img class="w-6" src="/image/PhoneCall 1.png" alt="Phone icon">
+                        <p class="text-gray-700 font-medium">(219) 555-0114</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section class="container mx-auto px-6 md:px-10 py-10">
+            <div class="flex flex-col md:flex-row items-center gap-8">
+                <div class="text-center md:text-left">
+                    <p class="text-sm text-[#00B207] mb-2">Welcome to Shopery</p>
+                    <h1 class="font-bold text-4xl md:text-6xl leading-[1.3]">
+                        Fresh & Healthy Organic Food
+                    </h1>
+                    <h3 class="mt-3 text-lg md:text-xl">
+                        Sale up to <span class="text-orange-600 font-semibold">30% OFF</span>
+                    </h3>
+                    <p class="text-sm text-gray-500 mt-2">
+                        Free shipping on all your order. We deliver, you enjoy!
+                    </p>
+                    <button
+                        class="bg-[#00B207] hover:bg-green-600 transition px-5 py-3 rounded-full text-white font-medium mt-5">
+                        Shop Now
+                    </button>
+                </div>
+
+                <div class="w-full md:w-1/2">
+                    <img src="image/Image.png" alt="Fresh Organic Food" class="max-w-full h-auto">
+                </div>
+            </div>
+        </section>
+
+        <section class="container mx-auto px-6 md:px-10 py-10">
+            <div class="flex flex-col md:flex-row gap-10 items-center">
+                <!-- Left Image -->
+                <div class="w-full md:w-1/2">
+                    <img src="image/Image (1).png" alt="Organic Food Store"
+                        class="background max-w-full h-auto rounded-xl">
+                </div>
+
+                <!-- Right Content -->
+                <div class="w-full md:w-1/2">
+                    <h1 class="font-bold text-4xl md:text-5xl leading-[1.2]">
+                        100% Trusted Organic Food Store
+                    </h1>
+                    <p class="text-base text-gray-500 mt-4">
+                        Pellentesque a ante vulputate leo porttitor luctus sed eget eros.
+                        Nulla et rhoncus neque. Duis non diam eget est luctus tincidunt a a mi.
+                        Nulla eu eros consequat tortor tincidunt feugiat.
+                    </p>
+
+                    <!-- Feature Grid -->
+                    <div class="grid sm:grid-cols-1 md:grid-cols-2 gap-4 mt-6">
+                        <div class="flex items-center gap-3">
+                            <img src="/image/Icon.png" alt="Organic Food Icon" class="w-10 h-10">
+                            <div>
+                                <h3 class="font-semibold text-lg">100% Organic Food</h3>
+                                <p class="text-sm text-gray-500">100% healthy & fresh food.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-3">
+                            <img src="/image/Icon (1).png" alt="Support Icon" class="w-10 h-10">
+                            <div>
+                                <h3 class="font-semibold text-lg">Great Support 24/7</h3>
+                                <p class="text-sm text-gray-500">Instant access to contact.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-3">
+                            <img src="/image/Icon (2).png" alt="Customer Feedback Icon" class="w-10 h-10">
+                            <div>
+                                <h3 class="font-semibold text-lg">Customer Feedback</h3>
+                                <p class="text-sm text-gray-500">Our happy customers.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-3">
+                            <img src="/image/Icon (3).png" alt="Free Shipping Icon" class="w-10 h-10">
+                            <div>
+                                <h3 class="font-semibold text-lg">Free Shipping</h3>
+                                <p class="text-sm text-gray-500">Free shipping with discount.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-3">
+                            <img src="/image/Icon (4).png" alt="Secure Payment Icon" class="w-10 h-10">
+                            <div>
+                                <h3 class="font-semibold text-lg">Secure Payment</h3>
+                                <p class="text-sm text-gray-500">We ensure your money is safe.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-3">
+                            <img src="/image/Icon (5).png" alt="Fresh Food Icon" class="w-10 h-10">
+                            <div>
+                                <h3 class="font-semibold text-lg">100% Organic Food</h3>
+                                <p class="text-sm text-gray-500">100% healthy & fresh food.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container mx-auto px-6 md:px-10 py-12 bg-[#eceaea]">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+                <div>
+                    <h1 class="font-bold text-3xl md:text-5xl leading-snug">
+                        We Delivered, <br> You Enjoy Your Order.
+                    </h1>
+                    <p class="text-base text-gray-500 mt-4">
+                        Ut suscipit egestas suscipit. Sed posuere pellentesque nunc,
+                        ultrices consectetur velit dapibus eu. Mauris sollicitudin dignissim diam,
+                        ac mattis eros accumsan rhoncus. Curabitur auctor bibendum nunc eget elementum.
+                    </p>
+
+                    <div class="mt-6 space-y-3">
+                        <div class="flex items-center gap-3">
+                            <img src="/image/Check.png" alt="Check" class="w-5 h-5">
+                            <p class="text-gray-700">Sed in metus pellentesque.</p>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <img src="/image/Check.png" alt="Check" class="w-5 h-5">
+                            <p class="text-gray-700">Fusce et ex commodo, aliquam nulla efficitur, tempus lorem.</p>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <img src="/image/Check.png" alt="Check" class="w-5 h-5">
+                            <p class="text-gray-700">Maecenas ut nunc fringilla erat varius.</p>
+                        </div>
+                    </div>
+
+                    <button
+                        class="bg-[#00B207] hover:bg-green-700 transition px-5 py-3 rounded-full text-white font-medium mt-6">
+                        Shop Now
+                    </button>
+                </div>
+
+                <div class="flex justify-center">
+                    <img src="image/Image (2).png" alt="Delivery Image" class="max-w-full h-auto rounded-xl">
+                </div>
+            </div>
+        </section>
+
+        <section class="container mx-auto px-6 md:px-10 py-12">
+            <div class="flex flex-col items-center text-center">
+                <h1 class="font-bold text-3xl md:text-4xl leading-tight">Our Awesome Team</h1>
+                <p class="text-base text-gray-500 mt-3 max-w-2xl">
+                    Pellentesque a ante vulputate leo porttitor luctus sed eget eros.
+                    Nulla et rhoncus neque. Duis non diam eget est luctus tincidunt a a mi.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mt-10">
+                <div class="group flex flex-col items-center">
+                    <img src="/image/Image (3).png" alt="Team Member 1"
+                        class="rounded-xl shadow-md transition transform group-hover:scale-105 duration-300">
+                    <p class="mt-3 font-semibold text-lg">John Doe</p>
+                    <p class="text-sm text-gray-500">CEO & Founder</p>
+                </div>
+
+                <div class="group flex flex-col items-center">
+                    <img src="/image/Image (4).png" alt="Team Member 2"
+                        class="rounded-xl shadow-md transition transform group-hover:scale-105 duration-300">
+                    <p class="mt-3 font-semibold text-lg">Sarah Smith</p>
+                    <p class="text-sm text-gray-500">Marketing Head</p>
+                </div>
+
+                <div class="group flex flex-col items-center">
+                    <img src="/image/Image (5).png" alt="Team Member 3"
+                        class="rounded-xl shadow-md transition transform group-hover:scale-105 duration-300">
+                    <p class="mt-3 font-semibold text-lg">Michael Lee</p>
+                    <p class="text-sm text-gray-500">Lead Developer</p>
+                </div>
+
+                <div class="group flex flex-col items-center">
+                    <img src="/image/tumi.png" alt="Team Member 4"
+                        class="rounded-xl shadow-md transition transform group-hover:scale-105 duration-300">
+                    <p class="mt-3 font-semibold text-lg">Robart Fox</p>
+                    <p class="text-sm text-gray-500">Designer</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container mx-auto px-6 md:px-20 py-12 bg-[#20B5261A]">
+            <div class="flex justify-between items-center mb-8">
+                <h1 class="font-bold text-3xl md:text-4xl">Client Testimonial</h1>
+                <img src="image/Arrow.png" alt="Arrow Navigation" class="w-[80px] cursor-pointer">
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                <div class="shadow-lg bg-white p-6 rounded-xl hover:shadow-2xl transition">
+                    <img class="mb-3 w-6" src="/image/coma.png" alt="Quote Icon">
+                    <p class="leading-6 text-gray-600">
+                        Pellentesque eu nibh eget mauris congue mattis mattis nec tellus.
+                        Phasellus imperdiet elit magna dictum, bibendum cursus velit sodales.
+                        Donec sed neque eget.
+                    </p>
+                    <div class="flex items-center justify-between mt-4">
+                        <div class="flex items-center gap-3">
+                            <img src="/image/africa (1).png" alt="Robert Fox" class="w-10 h-10 rounded-full">
+                            <div>
+                                <h2 class="font-semibold text-lg">Robert Fox</h2>
+                                <p class="text-gray-400 text-sm">Customer</p>
+                            </div>
+                        </div>
+                        <div class="text-yellow-500 text-lg">⭐⭐⭐</div>
+                    </div>
+                </div>
+
+                <div class="shadow-lg bg-white p-6 rounded-xl hover:shadow-2xl transition">
+                    <img class="mb-3 w-6" src="/image/coma.png" alt="Quote Icon">
+                    <p class="leading-6 text-gray-600">
+                        Pellentesque eu nibh eget mauris congue mattis mattis nec tellus.
+                        Phasellus imperdiet elit magna dictum, bibendum cursus velit sodales.
+                        Donec sed neque eget.
+                    </p>
+                    <div class="flex items-center justify-between mt-4">
+                        <div class="flex items-center gap-3">
+                            <img src="/image/africa (2).png" alt="Dianne Russell" class="w-10 h-10 rounded-full">
+                            <div>
+                                <h2 class="font-semibold text-lg leading-5">Dianne Russell</h2>
+                                <p class="text-gray-400 text-sm">Customer</p>
+                            </div>
+                        </div>
+                        <div class="text-yellow-500 text-lg">⭐⭐⭐</div>
+                    </div>
+                </div>
+
+                <div class="shadow-lg bg-white p-6 rounded-xl hover:shadow-2xl transition">
+                    <img class="mb-3 w-6" src="/image/coma.png" alt="Quote Icon">
+                    <p class="leading-6 text-gray-600">
+                        Pellentesque eu nibh eget mauris congue mattis mattis nec tellus.
+                        Phasellus imperdiet elit magna dictum, bibendum cursus velit sodales.
+                        Donec sed neque eget.
+                    </p>
+                    <div class="flex items-center justify-between mt-4">
+                        <div class="flex items-center gap-3">
+                            <img src="/image/africa (3).png" alt="Eleanor Pena" class="w-10 h-10 rounded-full">
+                            <div>
+                                <h2 class="font-semibold text-lg leading-5">Eleanor Pena</h2>
+                                <p class="text-gray-400 text-sm">Customer</p>
+                            </div>
+                        </div>
+                        <div class="text-yellow-500 text-lg">⭐⭐⭐</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container mx-auto px-6 md:px-10 ">
+              <img src="/image/Company Logo.png" alt="">
+        </div>
+        <div class="flex flex-col md:flex-row items-center justify-between container mx-auto px-4 md:px-10 py-8 gap-6">
+            <div class="flex flex-col md:flex-row gap-6 items-center w-full md:w-auto">
+                <div class="text-center md:text-left">
+                    <h3 class="font-bold text-2xl md:text-3xl text-gray-900 mb-2">Subscribe our Newsletter</h3>
+                    <p class="text-sm text-gray-600 max-w-md">Pellentesque eu nibh eget conguemattimattis ne
+                        tellus.Phasellus imperdiet elit eu magna.</p>
+                </div>
+                <div class="flex flex-col sm:flex-row items-center gap-3 w-full md:w-auto">
+                    <input
+                        class="bg-gray-100 rounded-lg border border-gray-200 px-4 py-3 w-full sm:w-64 focus:outline-none focus:ring-2 focus:ring-[#00B207] "
+                        type="email" placeholder="Your email address">
+                    <button
+                        class=" bg-[#00B207] hover:bg-[#009206] text-white px-6 py-3 rounded-full transition-transform duration-300 ease-in-out hover:scale-110 cursor-pointer">Subscribe</button>
+                </div>
+                <div class="flex items-center gap-1">
+                    <a href="#"><img
+                            class="transition-transform duration-500 ease-in-out hover:scale-120 cursor-pointer"
+                            src="/image/Social Media.png" alt="social-Media"></a>
+                    <a href="#"><img
+                            class="transition-transform duration-500 ease-in-out hover:scale-120 cursor-pointer"
+                            src="/image/Social Media (1).png" alt="Twitter"></a>
+                    <a href="#"><img
+                            class="transition-transform duration-500 ease-in-out hover:scale-120 cursor-pointer"
+                            src="/image/Social Media (3).png" alt=""></a>
+                    <a href="#"><img
+                            class="transition-transform duration-500 ease-in-out hover:scale-120 cursor-pointer"
+                            src="/image/Social Media (2).png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="bg-gray-900">
+            <div class="container mx-auto px-4 md:px-10 py-12">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+                    <div class="lg:col-span-1">
+                        <img src="/images/logo.png" alt="Ecobazar Logo" class="mb-4 w-auto h-8">
+                        <p class="text-sm text-gray-400 mb-4 leading-relaxed">
+                            Lorem ipsum dolor sit amet adipisicing elit. Beatae, cumque.
+                        </p>
+                        <div class="flex items-center gap-4">
+                            <a href="#" class="text-[#00B207] hover:text-[#009206] transition-colors">
+                                <i class="fa-brands fa-facebook text-xl"></i>
+                            </a>
+                            <a href="#" class="text-white hover:text-gray-300 transition-colors">
+                                <i class="fa-brands fa-twitter text-xl"></i>
+                            </a>
+                            <a href="#" class="text-white hover:text-gray-300 transition-colors">
+                                <i class="fa-brands fa-instagram text-xl"></i>
+                            </a>
+                            <a href="#" class="text-white hover:text-gray-300 transition-colors">
+                                <i class="fa-brands fa-pinterest text-xl"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h2 class="font-semibold text-white text-lg mb-4">My Account</h2>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-sm text-gray-400 hover:text-white transition-colors">My
+                                    Account</a></li>
+                            <li><a href="#" class="text-sm text-gray-400 hover:text-white transition-colors">Order
+                                    History</a></li>
+                            <li><a href="#" class="text-sm text-gray-400 hover:text-white transition-colors">Shopping
+                                    Cart</a></li>
+                            <li><a href="#"
+                                    class="text-sm text-gray-400 hover:text-white transition-colors">Wishlist</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h2 class="font-semibold text-white text-lg mb-4">Help</h2>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-sm text-gray-400 hover:text-white transition-colors">Contact</a>
+                            </li>
+                            <li><a href="#" class="text-sm text-gray-400 hover:text-white transition-colors">FAQs</a>
+                            </li>
+                            <li><a href="#" class="text-sm text-gray-400 hover:text-white transition-colors">Terms &
+                                    Conditions</a></li>
+                            <li><a href="#" class="text-sm text-gray-400 hover:text-white transition-colors">Privacy
+                                    Policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h2 class="font-semibold text-white text-lg mb-4">Proxy</h2>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-sm text-gray-400 hover:text-white transition-colors">About</a>
+                            </li>
+                            <li><a href="#" class="text-sm text-gray-400 hover:text-white transition-colors">Shop</a>
+                            </li>
+                            <li><a href="#" class="text-sm text-gray-400 hover:text-white transition-colors">Product</a>
+                            </li>
+                            <li><a href="#" class="text-sm text-gray-400 hover:text-white transition-colors">Track
+                                    Order</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h2 class="font-semibold text-white text-lg mb-4">Download Mobile App</h2>
+                        <div class="flex flex-col gap-3">
+                            <a href="#"
+                                class="flex items-center gap-3 p-2 border border-gray-700 rounded-lg hover:border-gray-600 transition-colors">
+                                <i class="fa-brands fa-apple text-white text-2xl"></i>
+                                <div>
+                                    <p class="text-gray-400 text-xs">Download on the</p>
+                                    <p class="text-white text-sm font-medium">App Store</p>
+                                </div>
+                            </a>
+                            <a href="#"
+                                class="flex items-center gap-3 p-2 border border-gray-700 rounded-lg hover:border-gray-600 transition-colors">
+                                <i class="fa-brands fa-google-play text-white text-2xl"></i>
+                                <div>
+                                    <p class="text-gray-400 text-xs">Download on the</p>
+                                    <p class="text-white text-sm font-medium">Google Play</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800">
+                <div class="container mx-auto px-4 md:px-10 py-6">
+                    <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+                        <p class="text-gray-500 text-sm">Ecobazar eCommerce © 2021. All Rights Reserved</p>
+                        <div class="flex items-center gap-4">
+                            <i class="fa-brands fa-apple text-white text-xl"></i>
+                            <i class="fa-brands fa-cc-visa text-white text-xl"></i>
+                            <i class="fa-brands fa-cc-mastercard text-white text-xl"></i>
+                            <i class="fa-brands fa-cc-discover text-white text-xl"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
