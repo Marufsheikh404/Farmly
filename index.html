@@ -23,16 +23,16 @@
 
 <body>
     <header>
-        <section class="container px-10 mx-auto bg-gray-500">
+        <section class="container px-2 md:px-8 lg:px-10 mx-auto bg-gray-500">
             <div>
-                <div class="flex items-center justify-between py-2">
+                <div class="flex items-center justify-between lg:py-2">
                     <div class="flex items-center gap-3">
                         <!-- Fixed image path consistency -->
                         <img src="/image/Map Pin.png" alt="Location pin">
                         <!-- Fixed text size class from text-3 to text-sm -->
-                        <p class="text-white text-sm">Store Location: Lincoln- 344, Illinois, Chicago, USA</p>
+                        <p class="text-white text-sm hidden md:block lg:block">Store Location: Lincoln- 344, Illinois, Chicago, USA</p>
                     </div>
-                    <div class="flex items-center gap-4">
+                    <div class="flex items-center gap-5 md:gap-4 lg:gap-4">
                         <!-- Added proper spacing and hover effects -->
                         <p class="text-white text-sm hover:text-gray-200 cursor-pointer">ENG</p>
                         <p class="text-white text-sm hover:text-gray-200 cursor-pointer">USD</p>
@@ -43,13 +43,13 @@
             </div>
         </section>
 
-        <section class="container px-10 py-4 mx-auto">
+        <section class="container md:px-8 lg:px-10 py-4 mx-auto">
             <div>
-                <div class="flex justify-between items-center gap-5">
+                <div class="flex justify-between items-center gap-2 md:gap-4 lg:gap-5">
                     <div class="flex items-center gap-3">
                         <!-- Fixed image path consistency -->
                         <img src="/image/Group.png" alt="Ecobazar logo">
-                        <h1 class="font-bold text-2xl text-gray-800">Ecobazar</h1>
+                        <h1 class="font-bold text-lg md:text-xl lg:text-2xl text-gray-800">Ecobazar</h1>
                     </div>
                     <div class="flex items-center gap-2 flex-1 max-w-md mx-8">
                         <!-- Improved search input styling -->
@@ -58,13 +58,13 @@
                             type="text" placeholder="Search for products...">
                         <!-- Fixed typo from "Seach" to "Search" and improved button styling -->
                         <button
-                            class="bg-[#00B207] text-white px-4 py-2 rounded-lg hover:bg-[#009A06] transition-colors">Search</button>
+                            class="bg-[#00B207] text-white px-1 md:px-4 lg:px-4 py-2 rounded-lg hover:bg-[#009A06] transition-colors">Search</button>
                     </div>
                     <div class="flex items-center gap-4">
                         <!-- Fixed image paths and added alt text -->
-                        <img src="/image/Heart.png" alt="Wishlist" class="w-6 cursor-pointer hover:opacity-80">
+                        <img src="/image/Heart.png" alt="Wishlist" class="w-6 cursor-pointer hover:opacity-80 hidden md:block lg:block">
                         <img src="/image/Shopping Card.png" alt="Shopping cart"
-                            class="w-24 cursor-pointer hover:opacity-80">
+                            class="w-24 cursor-pointer hover:opacity-80 hidden md:block lg:block">
                     </div>
                 </div>
             </div>
@@ -77,7 +77,7 @@
         <section class="container mx-auto px-10 py-3">
             <div>
                 <div class="flex justify-between items-center">
-                    <nav class="flex items-center gap-8">
+                    <nav class="flex items-center gap-11 md:gap-5 lg:gap-8">
                         <!-- Fixed syntax error from text=[#00B207] to text-[#00B207] and improved navigation styling -->
                         <a href="#" class="text-[#00B207] font-medium hover:text-[#009A06] transition-colors">Home</a>
                         <a href="#" class="text-gray-700 hover:text-[#00B207] transition-colors">Shops</a>
@@ -85,7 +85,7 @@
                         <a href="#" class="text-gray-700 hover:text-[#00B207] transition-colors">Blog</a>
                         <a href="#" class="text-gray-700 hover:text-[#00B207] transition-colors">About</a>
                     </nav>
-                    <div class="flex items-center gap-3">
+                    <div class="md:flex lg:flex items-center gap-3 hidden md:block lg:block">
                         <!-- Fixed image path consistency -->
                         <img class="w-6" src="/image/PhoneCall 1.png" alt="Phone icon">
                         <p class="text-gray-700 font-medium">(219) 555-0114</p>
@@ -95,7 +95,7 @@
         </section>
     </header>
 
-    <main>
+    <main >
         <section class="container mx-auto px-6 md:px-10 py-10">
             <div class="flex flex-col md:flex-row items-center gap-8">
                 <div class="text-center md:text-left">
@@ -116,7 +116,7 @@
                 </div>
 
                 <div class="w-full md:w-1/2">
-                    <img src="image/Image.png" alt="Fresh Organic Food" class="max-w-full h-auto">
+                    <img src="image/Image.png" alt="Fresh Organic Food" class="lg:max-w-full h-auto">
                 </div>
             </div>
         </section>
@@ -338,6 +338,7 @@
             </div>
         </section>
     </main>
+
     <footer>
         <div class="container mx-auto px-6 md:px-10 ">
               <img src="/image/Company Logo.png" alt="">
